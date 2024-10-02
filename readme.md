@@ -2,11 +2,14 @@
 
 ## Install
 pip install extract-msg
+
 pip install imapclient
 
 ## Use
 Set the path to folder
+
 python extractor.py - Win
+
 python3 extractor.py - Linux or OS X
 
 
