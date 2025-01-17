@@ -14,7 +14,8 @@ arEmails = []
 n = 0
 for f in onlyfiles:
     email_file_splt = f.split(".")
-    if email_file_splt[1] != "msg":
+    lenght = len(email_file_splt) - 1
+    if email_file_splt[lenght] != "msg":
         continue
     msg = extract_msg.Message(f)
     msg_sender = msg.sender
