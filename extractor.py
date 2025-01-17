@@ -1,5 +1,6 @@
 # pip install extract-msg
 # pip install imapclient
+# pip install msglite
 import extract_msg
 import os
 import re
